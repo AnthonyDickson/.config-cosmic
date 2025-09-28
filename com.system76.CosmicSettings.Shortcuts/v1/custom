@@ -2,143 +2,38 @@
     (
         modifiers: [
             Super,
-            Shift,
         ],
-        key: "i",
-    ): Move(Up),
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "o",
-    ): SwitchOutput(Right),
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "h",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "e",
-    ): Move(Down),
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "i",
-    ): SwitchOutput(Up),
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "l",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "e",
-    ): MoveToOutput(Down),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "p",
-    ): ToggleSticky,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "l",
-    ): Disable,
+        key: "slash",
+    ): ToggleOrientation,
     (
         modifiers: [
             Super,
             Ctrl,
             Shift,
         ],
-        key: "o",
-    ): MoveToNextWorkspace,
+        key: "i",
+    ): MoveToPreviousWorkspace,
     (
         modifiers: [
             Super,
+            Ctrl,
         ],
-        key: "n",
-    ): Focus(Left),
+        key: "o",
+    ): NextWorkspace,
     (
         modifiers: [
             Super,
-            Alt,
         ],
         key: "k",
     ): Disable,
     (
         modifiers: [
             Super,
-        ],
-        key: "h",
-    ): System(HomeFolder),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "u",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "j",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Shift,
-        ],
-        key: "n",
-    ): MoveToPreviousWorkspace,
-    (
-        modifiers: [
-            Super,
             Alt,
             Shift,
         ],
-        key: "n",
-    ): MoveToOutput(Left),
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "h",
+        key: "k",
     ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "l",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Shift,
-        ],
-        key: "e",
-    ): MoveToNextWorkspace,
     (
         modifiers: [
             Super,
@@ -150,58 +45,6 @@
     (
         modifiers: [
             Super,
-            Ctrl,
-        ],
-        key: "e",
-    ): NextWorkspace,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "n",
-    ): Move(Left),
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "l",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Shift,
-        ],
-        key: "k",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "k",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "k",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "l",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
             Shift,
         ],
         key: "o",
@@ -209,106 +52,16 @@
     (
         modifiers: [
             Super,
-            Alt,
-        ],
-        key: "e",
-    ): SwitchOutput(Down),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "o",
-    ): Focus(Right),
-    (
-        modifiers: [
-            Super,
-            Alt,
         ],
         key: "j",
     ): Disable,
     (
         modifiers: [
             Super,
-            Alt,
+            Shift,
         ],
         key: "n",
-    ): SwitchOutput(Left),
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "h",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "k",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "j",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "o",
-    ): MoveToOutput(Right),
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "Down",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "slash",
-    ): ToggleOrientation,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "e",
-    ): Focus(Down),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "g",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "n",
-    ): PreviousWorkspace,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Shift,
-        ],
-        key: "l",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "i",
-    ): PreviousWorkspace,
+    ): Move(Left),
     (
         modifiers: [
             Super,
@@ -321,8 +74,204 @@
             Ctrl,
             Shift,
         ],
+        key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
         key: "j",
     ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+            Shift,
+        ],
+        key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "e",
+    ): NextWorkspace,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Down",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "o",
+    ): MoveToNextWorkspace,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "k",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "n",
+    ): MoveToPreviousWorkspace,
+    (
+        modifiers: [
+            Super,
+            Alt,
+            Shift,
+        ],
+        key: "e",
+    ): MoveToOutput(Down),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "o",
+    ): Focus(Right),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "j",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "n",
+    ): PreviousWorkspace,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "j",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "o",
+    ): SwitchOutput(Right),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "e",
+    ): Move(Down),
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "k",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "i",
+    ): SwitchOutput(Up),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "p",
+    ): ToggleSticky,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "h",
+    ): System(HomeFolder),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "e",
+    ): MoveToNextWorkspace,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "e",
+    ): Focus(Down),
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "g",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "n",
+    ): SwitchOutput(Left),
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "i",
+    ): PreviousWorkspace,
     (
         modifiers: [
             Super,
@@ -333,13 +282,85 @@
         modifiers: [
             Super,
             Alt,
+            Shift,
+        ],
+        key: "j",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "i",
+    ): Move(Up),
+    (
+        modifiers: [
+            Super,
+            Alt,
+            Shift,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "k",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "n",
+    ): Focus(Left),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "u",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+            Shift,
+        ],
+        key: "n",
+    ): MoveToOutput(Left),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "k",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "e",
+    ): SwitchOutput(Down),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
         ],
         key: "h",
     ): Disable,
     (
         modifiers: [
             Super,
-            Ctrl,
             Shift,
         ],
         key: "h",
@@ -350,21 +371,6 @@
             Alt,
             Shift,
         ],
-        key: "j",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Shift,
-        ],
-        key: "i",
-    ): MoveToPreviousWorkspace,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
         key: "o",
-    ): NextWorkspace,
+    ): MoveToOutput(Right),
 }
