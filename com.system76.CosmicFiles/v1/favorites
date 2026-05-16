@@ -1,0 +1,10 @@
+[
+    Home,
+    Documents,
+    Downloads,
+    Music,
+    Pictures,
+    Videos,
+    Path("/home/anthony/SynologyDrive"),
+    Path("/home/anthony/git"),
+]
